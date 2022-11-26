@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    opacity: 90%;
+}
+
+.container h3{
+    margin-top: 20px;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.container h3 span{
+    text-decoration: underline;
+    color: lime;
+}
