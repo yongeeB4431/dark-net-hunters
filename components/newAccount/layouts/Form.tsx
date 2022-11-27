@@ -9,7 +9,7 @@ return(
         <input type="text" placeholder="state" />
         <input type="text" placeholder="password"/>
         <input type="text" placeholder="confirm password"/>
-        <button className={style.create}>create</button>
+        <button id="submit">create</button>
 
     </form>
 )

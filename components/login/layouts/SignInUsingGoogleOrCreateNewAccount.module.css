@@ -1,17 +1,18 @@
-.container{
+.container {
     display: flex;
-    justify-content: space-between;
-    margin: 0 15px;
-    opacity: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
 }
 
 .container h3{
-    margin-top: 20px;
-    color: antiquewhite;
-    font-style: italic;
-}
-
-.container h3 span{
-    text-decoration: underline;
-    color: lime;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    border-radius: 10px;
+    padding: 5px;
 }

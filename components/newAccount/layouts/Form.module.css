@@ -6,36 +6,11 @@
 }
 
 .form input{
-    width: 60%;
     background: transparent;
-    outline: none;
     margin: 10px 0;
-    height: 5vh;
-    border: 1px solid lime;
-    border-radius: 12px;
-    color: whitesmoke;
-    padding: 10px;
-    font-style: italic;
-    letter-spacing: 0.2em;
 }
-.form input::placeholder{
-    color: green;
-    opacity: 50%;
-}
-.form input:hover{
+
+.form input:active{
     opacity: 60%;
 }
 
-.form .create{
-    padding: 7px;
-    background: transparent;
-    color: lime;
-    outline: none;
-    border: 1px solid lime;
-    font-size: 16px;
-    border-radius: 7px;
-}
-
-.form .create:hover{
-    opacity: 50%;
-}

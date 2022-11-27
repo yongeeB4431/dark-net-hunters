@@ -6,9 +6,9 @@ import Form from "./layouts/Form"
 export default function CreateAccount(){
     return (
         <Container>
-            <LoginLink />
             <Name />
             <Form />
+            <LoginLink />
         </Container>
     )
 }
